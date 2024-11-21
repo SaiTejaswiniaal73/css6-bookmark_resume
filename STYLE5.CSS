@@ -11,7 +11,7 @@
     color: white;
     text-align: center;
     padding:1px;
-    height: 90px;
+    height: 105px;
     margin:-35px;
     margin-bottom: 7px;
     
@@ -30,17 +30,19 @@
     text-align: center;
     padding:1px;
     height: 25px;
-    margin:-20px;
-    margin-top: -4px;
     background-color: rgba(201, 129, 40, 0.884);
     margin-bottom: 3PX;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .Index h5
 {
-    display: inline;
+    display: inline-flex;
     font-size: large;
-    margin-right: 15px;   
-    color:black;   
+    margin-right: 22px;   
+    color:black;  
+    margin-top: -20px;
 }
 
 :target{
